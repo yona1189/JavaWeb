@@ -1,0 +1,63 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 30/03/2025, 11:36:22 a. m.
+    Author     : Yona20
+*/
+
+/* Estilos generales */
+body {
+    background-color: #022138;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 50px;
+}
+
+/* Tarjetas (formulario y tabla) */
+.card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Formulario */
+.form-label {
+    font-weight: bold;
+}
+
+/* Botón */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Tabla */
+.table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
